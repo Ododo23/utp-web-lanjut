@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "functions": {
+    "api/index.php": { "runtime": "vercel-php@0.7.3" }
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "/api/index.php" }
+  ],
+  "env": {
+    "APP_ENV": "production",
+    "APP_DEBUG": "false",
+    "APP_URL": "https://your-vercel-url.vercel.app",
+    "DB_CONNECTION": "pgsql",
+    "DB_HOST": "isi_host_neon",
+    "DB_PORT": "5432",
+    "DB_DATABASE": "school",
+    "DB_USERNAME": "school_owner",
+    "DB_PASSWORD": "isi_password_neon",
+    "SESSION_DRIVER": "cookie",
+    "CACHE_DRIVER": "array",
+    "LOG_CHANNEL": "stderr"
+  }
+}
