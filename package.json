@@ -1,7 +1,0 @@
-{
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "echo Skip build for PHP project"
-  }
-}
