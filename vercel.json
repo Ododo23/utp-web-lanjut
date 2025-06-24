@@ -9,13 +9,13 @@
   "env": {
     "APP_ENV": "production",
     "APP_DEBUG": "false",
-    "APP_URL": "https://your-vercel-url.vercel.app",
+    "APP_URL": "https://utp-web-lanjut.vercel.app",
     "DB_CONNECTION": "pgsql",
-    "DB_HOST": "isi_host_neon",
+    "DB_HOST": "ep-fancy-sky-123456.ap-southeast-1.aws.neon.tech",
     "DB_PORT": "5432",
     "DB_DATABASE": "school",
     "DB_USERNAME": "school_owner",
-    "DB_PASSWORD": "isi_password_neon",
+    "DB_PASSWORD": "npg_abc123",
     "SESSION_DRIVER": "cookie",
     "CACHE_DRIVER": "array",
     "LOG_CHANNEL": "stderr"
